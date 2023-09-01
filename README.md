@@ -1,1 +1,1 @@
-# react-calculator
+# pet-проект "react-calculator"
