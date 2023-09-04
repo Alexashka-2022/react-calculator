@@ -1,0 +1,38 @@
+.display {
+    width: 350px;
+    height: 70px;
+    border-radius: 20px;
+    background: #3A3F77;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 25px auto 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display__input {
+    background: #3A3F77;
+    width: 300px;
+    height: 36px;
+    color: #FFF;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 16px 10px 26px;
+    border: none;
+}
+
+@media screen and (max-width: 400px) {
+    .display {
+        width: calc(100% - 30px);
+        margin: 15px auto 12px;
+    }
+
+    .display__input {
+        width: 240px;
+        padding: 10px 16px 10px 20px;
+        font-size: 20px;
+    }
+}
