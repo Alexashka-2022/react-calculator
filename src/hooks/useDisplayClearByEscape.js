@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export function useDisplayClearByEscape(isClear, clearDisplay) {
+export function useDisplayClearByEscape(isClear, handleClearDisplay) {
 
     useEffect(() => {
 
@@ -8,7 +8,7 @@ export function useDisplayClearByEscape(isClear, clearDisplay) {
 
         const handleEscapeClick = (event) => {
             if (event.key === 'Escape') {
-                clearDisplay();
+                handleClearDisplay();
             }
         }
         if (!isClear) {
@@ -19,5 +19,5 @@ export function useDisplayClearByEscape(isClear, clearDisplay) {
             document.removeEventListener("keydown", handleEscapeClick);
         }
 
-    }, [isClear, clearDisplay]);
+    }, [isClear, handleClearDisplay]);
 }
