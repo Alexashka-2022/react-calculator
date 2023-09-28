@@ -6,29 +6,29 @@ function Buttons(props) {
     return (
         <section className="button-box">
             <div className="button-box__digits">
-                <button className="button-box__digits-item" type="button">1</button>
-                <button className="button-box__digits-item" type="button">2</button>
-                <button className="button-box__digits-item" type="button">3</button>
-                <button className="button-box__digits-item" type="button">4</button>
-                <button className="button-box__digits-item" type="button">5</button>
-                <button className="button-box__digits-item" type="button">6</button>
-                <button className="button-box__digits-item" type="button">7</button>
-                <button className="button-box__digits-item" type="button">8</button>
-                <button className="button-box__digits-item" type="button">9</button>
-                <button className="button-box__digits-item" type="button">.</button>
-                <button className="button-box__digits-item" type="button">0</button>
-                <button className="button-box__digits-item" type="button">
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>1</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>2</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>3</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>4</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>5</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>6</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>7</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>8</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>9</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onComaButtonClick}>.</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onButtonClick}>0</button>
+                <button className="button-box__digits-item" type="button" onClick={props.onBackspaceButtonClick}>
                     <img className="button-box__digits-image" src={buttonImage} alt="кнопка удаления знака" />
                 </button>
             </div>
             <div className="button-box__signs">
-                <button className="button-box__signs-item" type="button">× </button>
-                <button className="button-box__signs-item" type="button">÷</button>
-                <button className="button-box__signs-item" type="button">+</button>
-                <button className="button-box__signs-item" type="button">-</button>
-                <button className="button-box__signs-item" type="button">%</button>
-                <button className="button-box__signs-item" type="button">^</button>
-                <button className="button-box__signs-item" type="button">＝</button>
+                <button className="button-box__signs-item" type="button" onClick={props.onButtonClick}>x</button>
+                <button className="button-box__signs-item" type="button" onClick={props.onButtonClick}>÷</button>
+                <button className="button-box__signs-item" type="button" onClick={props.onButtonClick}>+</button>
+                <button className="button-box__signs-item" type="button" onClick={props.onButtonClick}>-</button>
+                <button className="button-box__signs-item" type="button" onClick={props.onButtonClick}>%</button>
+                <button className="button-box__signs-item" type="button" onClick={props.onButtonClick}>^</button>
+                <button className="button-box__signs-item" type="button" onClick={props.onEqualButtonClick}>＝</button>
             </div>
         </section>
     );

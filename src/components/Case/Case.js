@@ -3,7 +3,9 @@ import './Case.css';
 
 function Case(props) {
     return (
-        < section className="case" > {props.children}</section>
+        <section className="case" >
+            {props.children}
+        </section>
     );
 }
 
