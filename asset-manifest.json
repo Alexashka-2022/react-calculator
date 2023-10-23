@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-calculator/static/css/main.d2962023.css",
+    "main.js": "/react-calculator/static/js/main.fc006d9a.js",
+    "static/media/Inter-Regular.woff?v=3.19": "/react-calculator/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Regular.woff2?v=3.19": "/react-calculator/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/button-box__digits.svg": "/react-calculator/static/media/button-box__digits.bef82ee83a2c4b7201f4f6f10b620693.svg",
+    "index.html": "/react-calculator/index.html",
+    "main.d2962023.css.map": "/react-calculator/static/css/main.d2962023.css.map",
+    "main.fc006d9a.js.map": "/react-calculator/static/js/main.fc006d9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2962023.css",
+    "static/js/main.fc006d9a.js"
+  ]
+}
